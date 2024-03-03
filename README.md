@@ -61,7 +61,7 @@
 
 - **Hash Tables:** Learn about hash tables and their applications in computer graphics.
   
-  ![Hash Tables](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/22e8d16e-3b8a-48ce-961f-ce519976388c)
+  ![Hash Tables](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/8d8ed8fa-ab64-4150-bd72-28394537f245)
 
 - **Applications:** Understand how hash tables can be used for efficient texture mapping or ray tracing.
 
