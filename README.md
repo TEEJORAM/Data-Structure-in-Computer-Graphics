@@ -7,18 +7,18 @@
   
 - **Geometric Primitives:** Familiarize yourself with basic geometric primitives like points, lines, and polygons.
   
-  ![Geometric Primitives](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/4a89ffa7-a693-4f8b-82a8-5988101f9076)
+  ![Geometric Primitives](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/1478d382-17ba-4819-b06b-e092af9b0814)
 
 
 ## Arrays and Matrices
 
 - **Arrays and Matrices:** Learn about arrays and matrices in the context of graphics programming.
   
-  ![Arrays and Matrices](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/c91280a2-c664-42ea-8ac8-6239c5a16df8)
+  ![Arrays and Matrices](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/2f7b161c-1ff2-441d-91b5-16a02afbb40d)
 
 - **Transformations:** Understand how matrices are used to represent transformations such as translation, rotation, scaling, and projection.
   
-  ![Transformations](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/96be5143-cac7-45f3-821b-f9f9427b31f9)
+  ![Transformations](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/0ebf0161-0363-43db-ae6e-29167889fdcb)
 
 - **Implementation:** Implement basic matrix operations and transformations.
 
@@ -26,7 +26,7 @@
 
 - **Linked Lists:** Study linked lists and their applications in managing dynamic collections of objects.
   
-  ![Linked Lists](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/0fd559c3-8d17-45ac-af7e-f6c6db7aa3fe)
+  ![Linked Lists](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/b80f033f-19d9-4726-b6aa-30650da9abad)
 
 - **Implementation:** Implement linked lists for managing vertex data or for creating a simple scene graph.
 
@@ -34,11 +34,11 @@
 
 - **Tree Data Structures:** Learn about tree data structures and their role in spatial partitioning.
   
-  ![Tree Data Structures](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/b3b918d4-64a1-4460-9786-bc442c0085b0)
+  ![Tree Data Structures](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/be2099d4-1fee-4623-9ee9-9d08e421f76c)
 
 - **Quadtree and Octree:** Study Quadtree for 2D spatial partitioning and Octree for 3D spatial partitioning.
   
-  ![Quadtree and Octree](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/5f93f41a-927c-4d1a-9095-8116433eaaf7)
+  ![Quadtree and Octree](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/1acb3bf6-a6fa-4b25-b13e-027b18dac58b)
 
 - **Implementation:** Implement basic operations on Quadtree and Octree structures.
 
@@ -46,13 +46,13 @@
 
 - **Graph Data Structures:** Understand graph data structures and algorithms.
   
-  ![Graph Data Structures](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/8b23e37f-a85a-4c31-9883-182f7fe2aa4d)
+  ![Graph Data Structures](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/d1d6be17-7f91-4fb6-8e4f-ade31469c392)
 
 - **Graph Representations:** Learn about graph representations such as adjacency list and adjacency matrix.
   
-  ![Graph Representations of Undirected Graph to Adjacency Matrix](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/98ed7049-2c07-4222-9cf8-a07f55a8f3fe)
+  ![Graph Representations of Undirected Graph to Adjacency Matrix](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/76c20928-ba02-4405-b3fd-3f749526864f)
 
-  ![Graph Representations of Directed Graph to Adjacency Matrix](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/f4b5333a-0dee-4106-9e08-9b689423aa8a)
+  ![Graph Representations of Directed Graph to Adjacency Matrix](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/5cc0bed0-4307-4598-aa30-97e3d6b788a2)
 
 - **Applications:** Study how graphs are used in computer graphics for tasks like scene graph traversal or rendering optimizations.
   
@@ -70,7 +70,7 @@
 
 - **Stacks and Queues:** Study stacks and queues and their applications in graphics programming.
   
-  ![Stacks and Queues](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/7de120a4-c5cb-4767-b8b2-7309f2e891a7)
+  ![Stacks and Queues](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/ea310063-c2eb-4825-9241-43e18cbda518)
 
 - **Applications:** Learn how stacks and queues can be used for managing rendering pipelines or processing tasks in a specific order.
 
@@ -88,14 +88,14 @@
   
 - **Perspective Projection:** Study advanced transformations and calculations such as perspective projection and view transformations.
   
-  ![Perspective Projection](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/fc3383a5-196a-40fd-b8dd-1408f3eda358)
+  ![Perspective Projection](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/7b57b1e1-6db7-4c37-a910-a6cf386944e3)
 
 
 ## Priority Queues and Heaps
 
 - **Priority Queues and Heaps:** Learn about priority queues and heaps and their applications in graphics programming.
   
-  ![Priority Queues and Heaps](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/1a5d3295-0b1d-4d01-9894-0587dcbd9b78)
+  ![Priority Queues and Heaps](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/3822c80f-64ac-4c11-a030-c7f420a708a3)
 
 - **Applications:** Study how they can be used for prioritized rendering or handling events in real-time rendering systems.
  
@@ -104,11 +104,15 @@
 
 - **Spatial Data Structures:** Learn about spatial data structures and their importance in rendering optimization.
   
-  ![Spatial Data Structures](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/e37c3577-b51a-4fbc-82df-d691bed09352)
+  ![Spatial Data Structures](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/ad570c8c-cc9e-4034-8aba-3c17835fb826)
 
 - **BSP Trees:** Study BSP trees and their role in visibility determination and occlusion culling.
   
-  ![BSP Trees](https://github.com/TEEJORAM/Data-structure-in-Computer-Graphics/assets/157878815/a01d1872-afe5-4d4c-bb28-41e471c8862c)
+  ![BSP Trees](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/669951c2-544c-46ea-9089-49168b53943f)
+
+  ![Example 1:](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/0f9b7eb9-dcf7-4c4f-8dab-64ce4ecc653f)
+
+  ![Example 1:](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/1c09dc98-1d07-44d7-88fa-0a6acbf525db)
 
 ---
 
