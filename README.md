@@ -46,13 +46,44 @@
 
 - **Particle systems**: Introduces particle systems for simulating complex effects such as fire, smoke, and explosions by emitting and animating large numbers of small particles.
 
-## Data Structures and Algorithms:
+# Data Structures and Algorithms for Computer Graphics
 
-- **Trees and graphs (for scene graphs, hierarchical modeling)**: Covers data structures such as trees and graphs used for organizing and representing hierarchical relationships in scenes, as well as algorithms for efficient traversal and manipulation.
+## Data Structures:
 
-- **Spatial data structures (octrees, kd-trees)**: Introduces spatial data structures used for efficient spatial indexing and querying in 3D environments, such as octrees and kd-trees, to accelerate collision detection and visibility determination.
+1. **Trees and Graphs**:
+   - Basics of trees (binary trees, n-ary trees)
+   - Tree traversal algorithms (pre-order, in-order, post-order)
+   - Binary search trees (BSTs)
+   - Balanced trees (AVL trees, Red-Black trees)
+   - Graph representation (adjacency matrix, adjacency list)
+   - Graph traversal algorithms (breadth-first search, depth-first search)
+   - Scene graphs and hierarchical modeling
 
-- **Collision detection algorithms**: Discusses algorithms for detecting collisions between objects in a 3D scene, including bounding volume hierarchies, sweep and prune, and distance-based methods.
+2. **Spatial Data Structures**:
+   - Basics of spatial data structures
+   - Quad trees and octrees
+   - k-d trees (k-dimensional trees)
+   - BSP trees (Binary Space Partitioning)
+   - R-trees (for spatial indexing)
+
+## Algorithms:
+
+1. **Collision Detection**:
+   - Basics of collision detection
+   - Axis-aligned bounding boxes (AABB)
+   - Bounding volume hierarchies (BVH)
+   - Sweep and prune algorithm
+   - Distance-based collision detection algorithms (e.g., separating axis theorem)
+
+2. **Traversal and Manipulation**:
+   - Algorithms for efficient traversal of hierarchical structures (trees and graphs)
+   - Scene graph manipulation techniques
+   - Optimizations for hierarchical modeling (e.g., frustum culling)
+
+3. **Optimization Techniques**:
+   - Spatial partitioning techniques for acceleration (e.g., spatial hashing)
+   - Approximation algorithms for collision detection and visibility determination
+   - Level of Detail (LOD) techniques for managing complexity in 3D scenes
 
 ## Graphics APIs and Libraries:
 
