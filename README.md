@@ -1,119 +1,79 @@
-# Computer Graphics Data Structure Roadmap
+# Computer Graphics Overview
 
+## Fundamentals of Computer Graphics:
 
-## Basic Concepts
+- **Basic concepts and principles**: Covers fundamental concepts such as pixels, vectors, coordinate systems, and basic rendering techniques.
 
-- **Pixels, Coordinates Systems, and Color Models:** Understand fundamental concepts such as pixels, coordinate systems, and color models in computer graphics.
-  
-- **Geometric Primitives:** Familiarize yourself with basic geometric primitives like points, lines, and polygons.
-  
-  ![Geometric Primitives](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/1478d382-17ba-4819-b06b-e092af9b0814)
+- **Graphics pipeline and rendering techniques**: Explains the stages of the graphics pipeline (e.g., vertex processing, rasterization, pixel shading) and various rendering techniques used to create images from 3D models.
 
+## Mathematics for Computer Graphics:
 
-## Arrays and Matrices
+- **Linear algebra (vectors, matrices, transformations)**: Linear algebra is crucial for representing and manipulating 3D objects and transformations. Vectors and matrices are used to represent points, directions, and transformations such as translation, rotation, and scaling.
 
-- **Arrays and Matrices:** Learn about arrays and matrices in the context of graphics programming.
-  
-  ![Arrays and Matrices](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/2f7b161c-1ff2-441d-91b5-16a02afbb40d)
+- **Calculus (especially for understanding derivatives in shading and lighting)**: Calculus is essential for understanding the behavior of functions in shading and lighting models, particularly in calculating derivatives for smooth shading transitions.
 
-- **Transformations:** Understand how matrices are used to represent transformations such as translation, rotation, scaling, and projection.
-  
-  ![Transformations](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/0ebf0161-0363-43db-ae6e-29167889fdcb)
+## 2D Graphics:
 
-- **Implementation:** Implement basic matrix operations and transformations.
+- **Basic shapes and transformations**: Covers the representation and manipulation of basic geometric shapes (e.g., lines, circles, polygons) and transformations such as translation, rotation, and scaling applied to these shapes.
 
-## Linked Lists
+- **Rasterization algorithms**: Explains algorithms for converting geometric primitives into pixel data for display on a raster display device, commonly used in rendering 2D graphics.
 
-- **Linked Lists:** Study linked lists and their applications in managing dynamic collections of objects.
-  
-  ![Linked Lists](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/b80f033f-19d9-4726-b6aa-30650da9abad)
+- **Color models and blending techniques**: Introduces different color models (e.g., RGB, CMYK) and techniques for blending colors to achieve various visual effects such as transparency and lighting.
 
-- **Implementation:** Implement linked lists for managing vertex data or for creating a simple scene graph.
+## 3D Graphics:
 
-## Trees (e.g., Quadtree, Octree)
+- **3D transformations and projections**: Discusses transformations and projections used to position and project 3D objects onto a 2D viewing plane, including translation, rotation, scaling, and perspective projection.
 
-- **Tree Data Structures:** Learn about tree data structures and their role in spatial partitioning.
-  
-  ![Tree Data Structures](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/be2099d4-1fee-4623-9ee9-9d08e421f76c)
+- **Mesh representation and manipulation**: Covers the representation of 3D objects using meshes composed of vertices, edges, and faces, and techniques for manipulating and deforming these meshes.
 
-- **Quadtree and Octree:** Study Quadtree for 2D spatial partitioning and Octree for 3D spatial partitioning.
-  
-  ![Quadtree and Octree](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/1acb3bf6-a6fa-4b25-b13e-027b18dac58b)
+- **Lighting and shading models**: Introduces models for simulating how light interacts with surfaces in a 3D scene, including diffuse and specular reflection, ambient lighting, and various shading techniques.
 
-- **Implementation:** Implement basic operations on Quadtree and Octree structures.
+- **Texturing and mapping techniques**: Explains how textures can be applied to 3D surfaces to add detail and realism, including texture mapping, bump mapping, and environment mapping.
 
-## Graphs
+## Rendering Techniques:
 
-- **Graph Data Structures:** Understand graph data structures and algorithms.
-  
-  ![Graph Data Structures](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/d1d6be17-7f91-4fb6-8e4f-ade31469c392)
+- **Ray tracing**: Discusses the ray tracing algorithm for simulating the path of light rays in a scene to generate photorealistic images, accounting for reflections, refractions, and shadows.
 
-- **Graph Representations:** Learn about graph representations such as adjacency list and adjacency matrix.
-  
-  ![Graph Representations of Undirected Graph to Adjacency Matrix](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/76c20928-ba02-4405-b3fd-3f749526864f)
+- **Global illumination**: Covers techniques for simulating indirect lighting effects such as global illumination and ambient occlusion to improve the realism of rendered images.
 
-  ![Graph Representations of Directed Graph to Adjacency Matrix](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/5cc0bed0-4307-4598-aa30-97e3d6b788a2)
+- **Real-time rendering (OpenGL, DirectX)**: Introduces real-time rendering techniques used in interactive applications and games, including graphics APIs such as OpenGL and DirectX.
 
-- **Applications:** Study how graphs are used in computer graphics for tasks like scene graph traversal or rendering optimizations.
-  
+## Animation:
 
-## Hash Tables
+- **Keyframe animation**: Explains the keyframe animation technique for animating objects by specifying key poses at certain frames and interpolating between them to create smooth motion.
 
-- **Hash Tables:** Learn about hash tables and their applications in computer graphics.
-  
-  ![Hash Tables](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/8d8ed8fa-ab64-4150-bd72-28394537f245)
+- **Skeletal animation**: Covers skeletal animation techniques based on skeletal structures and joint movements, commonly used for character animation.
 
-- **Applications:** Understand how hash tables can be used for efficient texture mapping or ray tracing.
+- **Particle systems**: Introduces particle systems for simulating complex effects such as fire, smoke, and explosions by emitting and animating large numbers of small particles.
 
-  
-## Stacks and Queues
+## Data Structures and Algorithms:
 
-- **Stacks and Queues:** Study stacks and queues and their applications in graphics programming.
-  
-  ![Stacks and Queues](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/ea310063-c2eb-4825-9241-43e18cbda518)
+- **Trees and graphs (for scene graphs, hierarchical modeling)**: Covers data structures such as trees and graphs used for organizing and representing hierarchical relationships in scenes, as well as algorithms for efficient traversal and manipulation.
 
-- **Applications:** Learn how stacks and queues can be used for managing rendering pipelines or processing tasks in a specific order.
+- **Spatial data structures (octrees, kd-trees)**: Introduces spatial data structures used for efficient spatial indexing and querying in 3D environments, such as octrees and kd-trees, to accelerate collision detection and visibility determination.
 
-  
-## Buffers and Lists
+- **Collision detection algorithms**: Discusses algorithms for detecting collisions between objects in a 3D scene, including bounding volume hierarchies, sweep and prune, and distance-based methods.
 
-- **Buffers and Lists:** Understand the concept of buffers and lists in graphics programming.
-  
-- **Types:** Learn about vertex buffers, index buffers, and command lists and their roles in efficient rendering.
-  
+## Graphics APIs and Libraries:
 
-## Vectors and Matrices
+- **OpenGL**: Overview of the OpenGL graphics API commonly used for cross-platform rendering of 2D and 3D graphics.
 
-- **Advanced Transformations:** Dive deeper into vector and matrix operations in computer graphics.
-  
-- **Perspective Projection:** Study advanced transformations and calculations such as perspective projection and view transformations.
-  
-  ![Perspective Projection](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/7b57b1e1-6db7-4c37-a910-a6cf386944e3)
+- **DirectX**: Overview of the DirectX API developed by Microsoft for rendering multimedia and games on Windows platforms.
 
+- **Vulkan**: Overview of the Vulkan graphics API designed for high-performance graphics and compute applications, with explicit control over GPU hardware.
 
-## Priority Queues and Heaps
+## Graphics Programming:
 
-- **Priority Queues and Heaps:** Learn about priority queues and heaps and their applications in graphics programming.
-  
-  ![Priority Queues and Heaps](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/3822c80f-64ac-4c11-a030-c7f420a708a3)
+- **Shader programming (GLSL, HLSL)**: Introduces shader programming languages such as GLSL (OpenGL Shading Language) and HLSL (High-Level Shading Language) used to define custom rendering effects on the GPU.
 
-- **Applications:** Study how they can be used for prioritized rendering or handling events in real-time rendering systems.
- 
+- **GPU programming**: Covers programming techniques for utilizing the parallel processing capabilities of GPUs to accelerate graphics and compute tasks.
 
-## Spatial Data Structures (e.g., BSP Trees)
+- **Graphics programming languages and frameworks (e.g., WebGL, Three.js)**: Overview of graphics programming languages and frameworks for web-based graphics rendering, such as WebGL and Three.js.
 
-- **Spatial Data Structures:** Learn about spatial data structures and their importance in rendering optimization.
-  
-  ![Spatial Data Structures](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/ad570c8c-cc9e-4034-8aba-3c17835fb826)
+## Specialized Areas:
 
-- **BSP Trees:** Study BSP trees and their role in visibility determination and occlusion culling.
-  
-  ![BSP Trees](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/669951c2-544c-46ea-9089-49168b53943f)
+- **Virtual reality (VR) and augmented reality (AR)**: Introduces the principles and techniques used in VR and AR applications, including immersive environments, spatial tracking, and interaction methods.
 
-  ![Example 1:](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/0f9b7eb9-dcf7-4c4f-8dab-64ce4ecc653f)
+- **Simulation and physics-based animation**: Covers simulation techniques for simulating physical phenomena such as rigid body dynamics, fluid dynamics, and soft body deformation in animations and games.
 
-  ![Example 1:](https://github.com/TEEJORAM/Data-Structure-in-Computer-Graphics/assets/157878815/1c09dc98-1d07-44d7-88fa-0a6acbf525db)
-
----
-
-This roadmap outlines the foundational concepts and data structures essential for understanding computer graphics programming. From basic geometric primitives to advanced spatial data structures, mastering these concepts will provide a solid foundation for creating visually appealing and efficient graphics applications.
+- **Procedural content generation**: Discusses techniques for generating content such as textures, terrain, and objects algorithmically, allowing for dynamic and varied environments in applications and games.
